@@ -30,6 +30,14 @@
 
 // 4. **Starships Information**: Fetch names and models of 3 starships.
 
+// query AllPlanets {
+//     allStarships(first: 3) {
+//       starships {
+//         name
+//       }
+//     }
+//   }
+
 // ### Intermediate Tasks
 
 // 1. **Character and Their Starships**: For each of the first 5 characters, list the names of starships they've piloted.
