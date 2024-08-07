@@ -12,6 +12,11 @@
 
 // 2. **Fetch a Specific Character**: Get the name of a specific character using their unique ID.
 
+// query Person($personId: ID) {
+//   person(id: "cGVvcGxlOjIw") {
+//     name
+//   }
+// }
 
 // 3. **Explore Planets**: Get the names of the first 5 planets in the Star Wars universe.
 
