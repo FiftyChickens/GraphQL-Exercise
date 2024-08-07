@@ -79,6 +79,15 @@
 
 // 4. **Vehicles and Their Costs**: Get names and cost in credits for 3 vehicles.
 
+// {
+//     allVehicles(first: 3) {
+//       vehicles {
+//         name
+//         costInCredits
+//       }
+//     }
+//   }
+
 // ### Advanced Tasks
 
 // 1. **Characters in a Specific Film**: List all characters appearing in a given film by ID.
