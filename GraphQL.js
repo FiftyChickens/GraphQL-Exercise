@@ -41,6 +41,20 @@
 // ### Intermediate Tasks
 
 // 1. **Character and Their Starships**: For each of the first 5 characters, list the names of starships they've piloted.
+
+// query AllPeople {
+//     allPeople(first: 5) {
+//       people {
+//         name
+//         starshipConnection {
+//           starships {
+//             name
+//           }
+//         }
+//       }
+//     }
+//   }
+
 // 2. **Species and Their Languages**: Retrieve names and languages of 5 species.
 // 3. **Planets and Their Climates**: Query for the names and climates of 5 planets.
 // 4. **Vehicles and Their Costs**: Get names and cost in credits for 3 vehicles.
