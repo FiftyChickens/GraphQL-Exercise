@@ -151,5 +151,18 @@
 //   }
 
 // 2. **Link Characters with Their Planets**: Query the first 5 characters, including the name and population of their homeworld.
+
+// {
+//     allPeople(first: 5) {
+//       people {
+//         name
+//         homeworld {
+//           name
+//           population
+//         }
+//       }
+//     }
+//   }
+
 // 3. **Vehicles, Their Pilots, and Pilots' Species**: For the first 3 vehicles, list their names, pilots, and the species of those pilots.
 // 4. **Films and Their Associated Entities**: For the first 3 films, list all related characters, planets, and starships.
