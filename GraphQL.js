@@ -56,6 +56,15 @@
 //   }
 
 // 2. **Species and Their Languages**: Retrieve names and languages of 5 species.
+
+//{
+//     allSpecies(first: 5) {
+//       species {
+//         language
+//       }
+//     }
+//   }
+
 // 3. **Planets and Their Climates**: Query for the names and climates of 5 planets.
 // 4. **Vehicles and Their Costs**: Get names and cost in credits for 3 vehicles.
 
