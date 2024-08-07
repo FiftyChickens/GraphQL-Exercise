@@ -165,4 +165,21 @@
 //   }
 
 // 3. **Vehicles, Their Pilots, and Pilots' Species**: For the first 3 vehicles, list their names, pilots, and the species of those pilots.
+
+// {
+//     allVehicles(first: 3) {
+//       vehicles {
+//         name
+//         pilotConnection {
+//           pilots {
+//             name
+//             species {
+//               name
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+
 // 4. **Films and Their Associated Entities**: For the first 3 films, list all related characters, planets, and starships.
