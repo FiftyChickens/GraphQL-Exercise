@@ -2,6 +2,13 @@
 
 // 1. **List All Films**: Retrieve the titles of all films available in SWAPI.
 
+// query Query {
+//     allFilms {
+//       films {
+//         title
+//       }
+//     }
+//   }
 
 // 2. **Fetch a Specific Character**: Get the name of a specific character using their unique ID.
 
