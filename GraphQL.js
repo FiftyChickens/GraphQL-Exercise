@@ -91,6 +91,17 @@
 // ### Advanced Tasks
 
 // 1. **Characters in a Specific Film**: List all characters appearing in a given film by ID.
+
+// {
+//     film(id: "ZmlsbXM6NQ==") {
+//       characterConnection {
+//         characters {
+//           name
+//         }
+//       }
+//     }
+//   }
+
 // 2. **Multi-Film Characters**: Find characters that appear in more than one film.
 // 3. **Aggregate Film Statistics**: Calculate the total number of characters across all films.
 
