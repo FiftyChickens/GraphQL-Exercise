@@ -183,3 +183,25 @@
 //   }
 
 // 4. **Films and Their Associated Entities**: For the first 3 films, list all related characters, planets, and starships.
+
+// {
+//     allFilms(first: 3) {
+//       films {
+//         characterConnection {
+//           characters {
+//             name
+//           }
+//         }
+//         planetConnection {
+//           planets {
+//             name
+//           }
+//         }
+//         starshipConnection {
+//           starships {
+//             name
+//           }
+//         }
+//       }
+//     }
+//   }
