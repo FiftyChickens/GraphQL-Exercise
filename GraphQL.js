@@ -20,6 +20,14 @@
 
 // 3. **Explore Planets**: Get the names of the first 5 planets in the Star Wars universe.
 
+// query AllPlanets($first: Int) {
+//     allPlanets(first: 5) {
+//       planets {
+//       name
+//       }
+//     }
+//   }
+
 // 4. **Starships Information**: Fetch names and models of 3 starships.
 
 // ### Intermediate Tasks
