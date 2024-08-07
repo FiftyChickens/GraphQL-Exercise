@@ -66,6 +66,16 @@
 //   }
 
 // 3. **Planets and Their Climates**: Query for the names and climates of 5 planets.
+
+//  {
+//     allPlanets(first: 5) {
+//       planets {
+//         climates
+//         name
+//       }
+//     }
+//   }
+
 // 4. **Vehicles and Their Costs**: Get names and cost in credits for 3 vehicles.
 
 // ### Advanced Tasks
