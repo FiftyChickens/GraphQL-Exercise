@@ -2,7 +2,7 @@
 
 // 1. **List All Films**: Retrieve the titles of all films available in SWAPI.
 
-// query Query {
+//  {
 //     allFilms {
 //       films {
 //         title
@@ -12,7 +12,7 @@
 
 // 2. **Fetch a Specific Character**: Get the name of a specific character using their unique ID.
 
-// query Person {
+//  {
 //   person(id: "cGVvcGxlOjIw") {
 //     name
 //   }
@@ -20,7 +20,7 @@
 
 // 3. **Explore Planets**: Get the names of the first 5 planets in the Star Wars universe.
 
-// query AllPlanets {
+//  {
 //     allPlanets(first: 5) {
 //       planets {
 //       name
@@ -30,7 +30,7 @@
 
 // 4. **Starships Information**: Fetch names and models of 3 starships.
 
-// query AllPlanets {
+//  {
 //     allStarships(first: 3) {
 //       starships {
 //         name
@@ -42,7 +42,7 @@
 
 // 1. **Character and Their Starships**: For each of the first 5 characters, list the names of starships they've piloted.
 
-// query AllPeople {
+//  {
 //     allPeople(first: 5) {
 //       people {
 //         name
