@@ -117,6 +117,16 @@
 
 // 3. **Aggregate Film Statistics**: Calculate the total number of characters across all films.
 
+// {
+//     allFilms {
+//       films {
+//         characterConnection {
+//           totalCount
+//         }
+//       }
+//     }
+//   }
+
 // ### Complex Tasks
 
 // 1. **Full Character Profiles**: Compile a full profile for a given character, including their films, starships, and homeworld.
