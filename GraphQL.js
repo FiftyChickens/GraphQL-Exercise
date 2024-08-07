@@ -130,6 +130,26 @@
 // ### Complex Tasks
 
 // 1. **Full Character Profiles**: Compile a full profile for a given character, including their films, starships, and homeworld.
+
+// {
+//     person(id: "cGVvcGxlOjEw") {
+//       name
+//       starshipConnection {
+//         starships {
+//           name
+//         }
+//       }
+//       homeworld {
+//         name
+//       }
+//       filmConnection {
+//         films {
+//           title
+//         }
+//       }
+//     }
+//   }
+
 // 2. **Link Characters with Their Planets**: Query the first 5 characters, including the name and population of their homeworld.
 // 3. **Vehicles, Their Pilots, and Pilots' Species**: For the first 3 vehicles, list their names, pilots, and the species of those pilots.
 // 4. **Films and Their Associated Entities**: For the first 3 films, list all related characters, planets, and starships.
