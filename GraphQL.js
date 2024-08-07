@@ -61,6 +61,7 @@
 //     allSpecies(first: 5) {
 //       species {
 //         language
+//         name
 //       }
 //     }
 //   }
