@@ -103,6 +103,18 @@
 //   }
 
 // 2. **Multi-Film Characters**: Find characters that appear in more than one film.
+
+//   {
+//     allPeople {
+//       people {
+//         name
+//         filmConnection {
+//           totalCount
+//         }
+//       }
+//     }
+//   }
+
 // 3. **Aggregate Film Statistics**: Calculate the total number of characters across all films.
 
 // ### Complex Tasks
